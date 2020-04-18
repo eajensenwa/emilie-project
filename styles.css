@@ -2,10 +2,11 @@ body {
    Font-Family: 'Libre Franklin', Sans-Serif;
    font-weight: 200;
    font-style: normal;
-   background-color: #FFFFFF;
+   background-color: #B0C5B4;
    width: 100%;
    margin: 0;
    color: #616161;
+  margin-top: 4%;
 }
 
 .navigation {
@@ -80,6 +81,102 @@ body {
   color: cadetblue;
 }
 
+.secondary-container {
+  height:auto;
+  position: relative;
+}
+
+.key-container {
+  position: absolute;
+  margin: 0;
+  margin-left: 78%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.key-image {
+  height: 400px;
+}
+
+.symbols {
+  color: #336065 !important;
+  text-shadow: .5px .5px 4px grey;
+}
+
+.title-container {
+  position: absolute;
+  margin: 0;
+  margin-left: 15%;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+
+.title {
+  font-size: 10em;
+  color: white;
+  font-family: big-caslon-fb, serif;
+  font-weight: 200;
+  font-style: medium;
+  margin: 0;
+  text-align: center;
+}
+
+.nav-buttons{
+  display: flow-root;
+}
+
+.main-button {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.right-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 300px;
+  float: right;
+  margin-right: 9%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.left-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 300px;
+  float: left;
+  margin-left: 9%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.bottom-nav-button {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin-top: 2.3%;
+}
+
+.bottom-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 300px;
+  margin-left: 9%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
 .name {
    /* Font-Family: 'Open Sans', Sans-Serif; */
    font-weight: 200;
@@ -100,9 +197,10 @@ body {
     position: relative;
     flex-wrap: wrap;
     margin: auto;
-    width: 50%;
+    width: 42%;
+    height: 100%;
     justify-content: center;
-    margin-top: 3.5%;
+    z-index: 0;
 }
 
 li {
@@ -112,8 +210,6 @@ li {
 .box{
     flex: 1 1 calc(10% - 0px);
     position: relative;
-    width: 10%;
-    height: 0;
     padding-bottom: 10%;
     background-size: contain;
     /* box-shadow: grey 1px 3px 5px; */
