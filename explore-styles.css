@@ -1,0 +1,458 @@
+body {
+   Font-Family: 'Libre Franklin', Sans-Serif;
+   font-weight: 200;
+   font-style: normal;
+   background-color: black;
+   width: 100%;
+   margin: 0;
+   color: #616161;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    z-index: 0;
+}
+
+.box{
+    flex: 1 1 calc(10% - 0px);
+    position: relative;
+    padding-bottom: 10%;
+    background-size: contain;
+}
+
+/* .non-recyclable .box {
+    background-color: #fbe1ca;
+}
+
+.recyclable-1 .box {
+    background-color: #d1b02b;
+}
+
+.recyclable-2 .box {
+    background-color: #336065;
+} */
+
+.non-recyclable {
+    display: contents;
+}
+
+.recyclable-1 {
+    display: contents;
+}
+
+.recyclable-2 {
+    display: contents;
+}
+
+.box1  {
+   background-image: url("images/landfill/12.jpg");
+}
+
+/* .box1:focus {
+   background-color: #FFFFFF;
+} */
+
+.box2  {
+   background-image: url("images/landfill/C1.jpg");
+}
+
+.box3  {
+   background-image: url("images/landfill/C2.jpg");
+}
+
+.box4  {
+   background-image: url("images/landfill/C4.jpg");
+}
+
+.box5  {
+   background-image: url("images/landfill/CC1.jpg");
+}
+
+.box6  {
+   background-image: url("images/landfill/F1.jpg");
+}
+
+.box7  {
+   background-image: url("images/landfill/F2.jpg")
+}
+
+.box8  {
+   background-image: url("images/landfill/F3.jpg");
+}
+
+.box9  {
+   background-image: url("images/landfill/F4.jpg");
+}
+
+.box10  {
+   background-image: url("images/landfill/F5.jpg");
+}
+
+.box11  {
+   background-image: url("images/landfill/F6.jpg");
+}
+
+.box12  {
+   background-image: url("images/landfill/F7.jpg");
+}
+
+.box13  {
+   background-image: url("images/landfill/L1.jpg");
+}
+
+.box14  {
+   background-image: url("images/landfill/L2.jpg");
+}
+
+.box15  {
+   background-image: url("images/landfill/L3.jpg");
+}
+
+.box16  {
+   background-image: url("images/landfill/L4.jpg");
+}
+
+.box17  {
+   background-image: url("images/landfill/M1.jpg");
+}
+
+.box18  {
+   background-image: url("images/landfill/M2.jpg");
+}
+
+.box19  {
+   background-image: url("images/landfill/M3.jpg");
+}
+
+.box20  {
+   background-image: url("images/landfill/M4.jpg");
+}
+
+.box21  {
+   background-image: url("images/landfill/M5.jpg");
+}
+
+.box22  {
+   background-image: url("images/landfill/M6.jpg");
+}
+
+.box23  {
+   background-image: url("images/landfill/M7.jpg");
+}
+
+.box24  {
+   background-image: url("images/landfill/M8.jpg");
+}
+
+.box25  {
+   background-image: url("images/landfill/M9.jpg");
+}
+
+.box26  {
+   background-image: url("images/landfill/M10.jpg");
+}
+
+.box27  {
+   background-image: url("images/landfill/M11.jpg");
+}
+
+.box28  {
+   background-image: url("images/landfill/M12.jpg");
+}
+
+.box29  {
+   background-image: url("images/landfill/M13.jpg");
+}
+
+.box30  {
+   background-image: url("images/landfill/M14.jpg");
+}
+
+.box31  {
+   background-image: url("images/landfill/O1.jpg");
+}
+
+.box32  {
+   background-image: url("images/landfill/O2.jpg");
+}
+
+.box33  {
+   background-image: url("images/landfill/O3.jpg");
+}
+
+.box34  {
+   background-image: url("images/landfill/O4.jpg");
+}
+
+.box35  {
+   background-image: url("images/landfill/O5.jpg");
+}
+
+.box36  {
+   background-image: url("images/landfill/O6.jpg");
+}
+
+.box37  {
+   background-image: url("images/landfill/O7.jpg");
+}
+
+.box38  {
+   background-image: url("images/landfill/U1.jpg");
+
+}
+
+ .box39  {
+    background-image: url("images/landfill/U2.jpg");
+ }
+
+ .box40  {
+    background-image: url("images/landfill/W1.jpg");
+ }
+
+ .box41  {
+    background-image: url("images/landfill/W2.jpg");
+ }
+
+ .box42  {
+    background-image: url("images/landfill/W3.jpg");
+ }
+
+ .box43  {
+    background-image: url("images/landfill/W4.jpg");
+ }
+
+ .box44  {
+    background-image: url("images/landfill/W5.jpg");
+ }
+
+ .box45  {
+    background-image: url("images/landfill/W6.jpg")
+ }
+
+ .box46  {
+    background-image: url("images/landfill/W7.jpg");
+ }
+
+ .box47  {
+    background-image: url("images/landfill/W8.jpg");
+ }
+
+ .box48  {
+    background-image: url("images/landfill/W9.jpg");
+ }
+
+ .box49  {
+    background-image: url("images/landfill/W10.jpg");
+ }
+
+ .box50  {
+    background-image: url("images/landfill/W11.jpg");
+ }
+
+ .box51  {
+    background-image: url("images/landfill/W30.jpg");
+ }
+
+ .box52  {
+    background-image: url("images/landfill/W13.jpg");
+ }
+
+ .box53  {
+    background-image: url("images/landfill/W14.jpg");
+ }
+
+ .box54  {
+    background-image: url("images/landfill/W15.jpg");
+ }
+
+ .box55  {
+    background-image: url("images/landfill/W16.jpg");
+ }
+
+ .box56  {
+    background-image: url("images/landfill/W17.jpg");
+ }
+
+ .box57  {
+    background-image: url("images/landfill/W18.jpg")
+ }
+
+ .box58  {
+    background-image: url("images/landfill/W19.jpg");
+ }
+
+ .box59  {
+    background-image: url("images/landfill/W20.jpg");
+ }
+
+ .box60  {
+    background-image: url("images/landfill/W21.jpg");
+ }
+
+ .box61  {
+    background-image: url("images/landfill/W22.jpg");
+ }
+
+ .box62  {
+    background-image: url("images/landfill/W23.jpg");
+ }
+
+ .box63  {
+    background-image: url("images/landfill/W24.jpg");
+ }
+
+ .box64  {
+    background-image: url("images/landfill/W25.jpg");
+ }
+
+ .box65  {
+    background-image: url("images/landfill/W26.jpg");
+ }
+
+ .box66  {
+    background-image: url("images/landfill/W27.jpg");
+ }
+
+ .box67  {
+    background-image: url("images/landfill/W28.jpg");
+ }
+
+ .box68  {
+    background-image: url("images/landfill/W29.jpg");
+ }
+
+ .box69  {
+    background-image: url("images/improper_recycle_1/<6 (2).jpg");
+ }
+
+ .box70  {
+    background-image: url("images/improper_recycle_1/C1.jpg");
+ }
+
+ .box71  {
+    background-image: url("images/improper_recycle_1/CC.jpg");
+ }
+
+ .box72  {
+    background-image: url("images/improper_recycle_1/CL1.jpg");
+ }
+
+ .box73  {
+    background-image: url("images/improper_recycle_1/L1.jpg");
+ }
+
+ .box74  {
+    background-image: url("images/improper_recycle_1/L2.jpg");
+ }
+
+ .box75  {
+    background-image: url("images/improper_recycle_1/L3.jpg");
+ }
+
+ .box76  {
+    background-image: url("images/improper_recycle_1/L5.jpg");
+ }
+
+ .box77  {
+    background-image: url("images/improper_recycle_1/O1.jpg");
+ }
+
+ .box78  {
+    background-image: url("images/improper_recycle_1/O2.jpg");
+ }
+
+ .box79  {
+    background-image: url("images/improper_recycle_1/O3.jpg");
+ }
+
+ .box80  {
+    background-image: url("images/improper_recycle_1/O4.jpg");
+ }
+
+ .box81  {
+    background-image: url("images/improper_recycle_1/O8.jpg");
+ }
+
+ .box82  {
+    background-image: url("images/improper_recycle_1/W.jpg");
+ }
+
+ .box83  {
+    background-image: url("images/recycle_2/B1.jpg");
+ }
+
+ .box84  {
+    background-image: url("images/recycle_2/F10.jpg");
+ }
+
+ .box85  {
+    background-image: url("images/recycle_2/B2.jpg");
+ }
+
+ .box86  {
+    background-image: url("images/recycle_2/D1.jpg");
+ }
+
+ .box87  {
+    background-image: url("images/recycle_2/D2.jpg");
+ }
+
+ .box88  {
+    background-image: url("images/recycle_2/D3.jpg");
+
+ }
+
+  .box89  {
+     background-image: url("images/recycle_2/D4.jpg");
+  }
+
+  .box90  {
+     background-image: url("images/recycle_2/D5.jpg");
+  }
+
+  .box91  {
+     background-image: url("images/recycle_2/F11.jpg");
+  }
+
+  .box92  {
+     background-image: url("images/recycle_2/F1.jpg");
+  }
+
+  .box93  {
+     background-image: url("images/recycle_2/F2.jpg");
+  }
+
+  .box94  {
+     background-image: url("images/recycle_2/F3.jpg");
+  }
+
+  .box95  {
+     background-image: url("images/recycle_2/F4.jpg")
+  }
+
+  .box96  {
+     background-image: url("images/recycle_2/F5.jpg");
+  }
+
+  .box97  {
+     background-image: url("images/recycle_2/F6.jpg");
+  }
+
+  .box98  {
+     background-image: url("images/recycle_2/F8.jpg");
+  }
+
+  .box99  {
+     background-image: url("images/recycle_2/F9.jpg");
+  }
+
+  .box100  {
+     background-image: url("images/recycle_2/J1.jpg");
+  }
