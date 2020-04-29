@@ -20,6 +20,15 @@ body {
     z-index: 0;
 }
 
+.tip1 {
+  height: 2em;
+  transform: translate(-130%, -11%);
+  position: absolute;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+}
+
 .box{
     flex: 1 1 calc(10% - 0px);
     position: relative;
@@ -27,17 +36,20 @@ body {
     background-size: contain;
 }
 
-/* .non-recyclable .box {
-    background-color: #fbe1ca;
+.non-recyclable .box:hover {
+    background-image: url("images/trash.jpg");
+
 }
 
-.recyclable-1 .box {
-    background-color: #d1b02b;
+.recyclable-1 .box:hover {
+    background-image: url("images/recycle.jpg");
+
 }
 
-.recyclable-2 .box {
-    background-color: #336065;
-} */
+.recyclable-2 .box:hover {
+    background-image: url("images/garbage.jpg");
+
+}
 
 .non-recyclable {
     display: contents;
